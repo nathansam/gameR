@@ -1,4 +1,4 @@
 library(testthat)
-library(paintR)
+library(gameR)
 
-test_check("paintR")
+test_check("gameR")

@@ -5,7 +5,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/nathansam/paintR/workflows/R-CMD-check/badge.svg)](https://github.com/nathansam/gameR/actions)
+[![R-CMD-check](https://github.com/nathansam/gameR/workflows/R-CMD-check/badge.svg)](https://github.com/nathansam/gameR/actions)
 <!-- badges: end -->
 
 gameR provides a collection of R colour palettes inspired by video
