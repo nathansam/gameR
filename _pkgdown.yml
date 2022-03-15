@@ -10,6 +10,7 @@ template:
     success: "#45da2d"
 
 navbar:
+  fg: white
   structure:
     right: [website, github]
   components:

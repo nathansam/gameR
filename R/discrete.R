@@ -1,4 +1,4 @@
-#' List of discrete colours
+# List of discrete colours
 gameR_colors <- list(cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),
                      cyberpunk = c("#faf22b", "#49aeec", "#ff193b", "#000000"),
                      fallout = c("#0068b1", "#fff874", "#27f286"),

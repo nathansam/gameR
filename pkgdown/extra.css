@@ -1,0 +1,5 @@
+
+.navbar-nav .active>.nav-link {
+background: none !important;
+color: white !important;
+}
