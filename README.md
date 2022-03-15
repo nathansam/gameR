@@ -9,8 +9,7 @@
 <!-- badges: end -->
 
 gameR provides a collection of R colour palettes inspired by video
-games. Note: these colour palettes may not be robust to colour
-blindness.
+games. Note: these colour palettes may not be colour blind friendly.
 
 ## Installation
 
@@ -27,6 +26,7 @@ remotes::install_github("nathansam/gameR")
 ``` r
 library(gameR)
 library(scales)
+library(ggplot2)
 ```
 
 At present, paintR only supports discrete colour palettes. These
@@ -36,8 +36,8 @@ provided by `gameR`, call `gameR_cols()` without any arguments.
 
 ``` r
 gameR_cols()
-#> [1] "cyberpunk" "gris"      "spirit"    "superbros" "cups"      "rayman"   
-#> [7] "splat"     "fallout"   "wow"
+#> [1] "cups"      "cyberpunk" "fallout"   "gris"      "rayman"    "spirit"   
+#> [7] "splat"     "superbros" "wow"
 ```
 
 ## Palettes
@@ -51,7 +51,7 @@ name of the game which has inspired the palette.
 gameR_cols("cups")
 ```
 
-<img src="man/figures/README-unnamed-chunk-4-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
 
 ### Cyberpunk
 
@@ -59,7 +59,7 @@ gameR_cols("cups")
 gameR_cols("cyberpunk")
 ```
 
-<img src="man/figures/README-unnamed-chunk-5-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
 
 ### Fallout
 
@@ -67,7 +67,7 @@ gameR_cols("cyberpunk")
 gameR_cols("fallout")
 ```
 
-<img src="man/figures/README-unnamed-chunk-6-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
 
 ### Gris
 
@@ -75,7 +75,7 @@ gameR_cols("fallout")
 gameR_cols("gris")
 ```
 
-<img src="man/figures/README-unnamed-chunk-7-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
 
 ### Rayman
 
@@ -83,7 +83,7 @@ gameR_cols("gris")
 gameR_cols("rayman")
 ```
 
-<img src="man/figures/README-unnamed-chunk-8-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
 
 ### Spiritfarer
 
@@ -91,7 +91,7 @@ gameR_cols("rayman")
 gameR_cols("spirit")
 ```
 
-<img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
 
 ### Splatoon
 
@@ -99,7 +99,7 @@ gameR_cols("spirit")
 gameR_cols("splat")
 ```
 
-<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
 
 ### Super Mario Bros
 
@@ -107,7 +107,7 @@ gameR_cols("splat")
 gameR_cols("superbros")
 ```
 
-<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
 ### World of Warcraft
 
@@ -115,4 +115,4 @@ gameR_cols("superbros")
 gameR_cols("wow")
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />

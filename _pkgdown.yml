@@ -3,11 +3,12 @@ url: "https://www.constantine-cooke.com/gameR/"
 template:
   bootstrap:  5
   bootswatch: darkly
+  theme: dracula
   bslib:
     primary: "#45da2d"
     text-muted: "#000000"
     success: "#45da2d"
-    
+
 navbar:
   structure:
     right: [website, github]

@@ -2,15 +2,16 @@
 % Please edit documentation in R/discrete.R
 \name{gameR_cols}
 \alias{gameR_cols}
-\title{Function to choose palette}
+\title{Choose a gameR palette}
 \usage{
 gameR_cols(palette = NULL, reverse = FALSE)
 }
 \arguments{
-\item{palette}{Character name of palette. Either "union" or "pastel".}
+\item{palette}{Character name of palette. Either "cups", "cyberpunk",
+"fallout", "gris", "rayman", "spirit", "splat", "superbros", "wow"}
 
 \item{reverse}{Logical. Should the palette be reversed? Defaults to FALSE.}
 }
 \description{
-Function to choose palette
+Choose a gameR palette
 }

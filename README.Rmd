@@ -1,5 +1,6 @@
 ---
 output: github_document
+fig_height: 1
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -9,9 +10,12 @@ knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "man/figures/README-",
-  out.width = "100%"
+  out.width = "100%",
+  dev.args = list(png = list(type = "cairo"))
 )
 ```
+
+
 
 # gameR <img src="man/figures/sticker.png" align="right" width="150"/>
 
@@ -20,7 +24,7 @@ knitr::opts_chunk$set(
 <!-- badges: end -->
 
 gameR provides a collection of R colour palettes inspired by video games. Note:
-these colour palettes may not be robust to colour blindness. 
+these colour palettes may not be colour blind friendly. 
 
 ## Installation
 
@@ -36,6 +40,7 @@ remotes::install_github("nathansam/gameR")
 ```{R}
 library(gameR)
 library(scales)
+library(ggplot2)
 ```
 
 At present, paintR only supports discrete colour palettes. These palettes are
@@ -45,6 +50,25 @@ an argument. For a full list of the palettes provided by `gameR`, call
 
 ```{R}
 gameR_cols()
+```
+
+
+```{R, echo = FALSE}
+plotCol <- function(palette){
+  colors <- gameR_cols(palette)
+  x <- 1:length(colors)
+  test <- data.frame(x = x, y = 1, colors = as.factor(x))
+  p <- ggplot(data = test, aes(x = x, y = y, fill = colors)) + 
+    geom_tile(color = "black", size = 0.3) +
+    scale_fill_manual(values = colors) +
+    theme_void() +
+    theme(legend.position = "none",
+          plot.background = element_rect(fill = rgb(60, 60, 60,
+                                                    maxColorValue = 255)
+                                         )
+          )
+  print(p)
+}
 ```
 
 ## Palettes
@@ -58,9 +82,10 @@ of the game which has inspired the palette.
 gameR_cols("cups")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("cups"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("cups")
 ```
+
 
 ### Cyberpunk
 
@@ -68,8 +93,8 @@ show_col(gameR_cols("cups"),  labels = FALSE)
 gameR_cols("cyberpunk")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("cyberpunk"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("cyberpunk")
 ```
 
 ### Fallout
@@ -79,8 +104,8 @@ gameR_cols("fallout")
 ```
 
 
-```{R, echo = FALSE}
-show_col(gameR_cols("fallout"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("fallout")
 ```
 
 ### Gris
@@ -89,8 +114,8 @@ show_col(gameR_cols("fallout"),  labels = FALSE)
 gameR_cols("gris")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("gris"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("gris")
 ```
 
 ### Rayman
@@ -99,8 +124,8 @@ show_col(gameR_cols("gris"),  labels = FALSE)
 gameR_cols("rayman")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("rayman"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("rayman")
 ```
 
 ### Spiritfarer
@@ -109,8 +134,8 @@ show_col(gameR_cols("rayman"),  labels = FALSE)
 gameR_cols("spirit")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("spirit"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("spirit")
 ```
 
 ### Splatoon
@@ -119,8 +144,8 @@ show_col(gameR_cols("spirit"),  labels = FALSE)
 gameR_cols("splat")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("splat"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("splat")
 ```
 
 ### Super Mario Bros
@@ -129,8 +154,8 @@ show_col(gameR_cols("splat"),  labels = FALSE)
 gameR_cols("superbros")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("superbros"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("superbros")
 ```
 
 ### World of Warcraft
@@ -139,6 +164,6 @@ show_col(gameR_cols("superbros"),  labels = FALSE)
 gameR_cols("wow")
 ```
 
-```{R, echo = FALSE}
-show_col(gameR_cols("wow"),  labels = FALSE)
+```{R, fig.height = 1, echo = FALSE}
+plotCol("wow")
 ```
