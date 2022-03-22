@@ -6,3 +6,4 @@
 ^pkgdown$
 ^\_pkgdown\.yml$
 ^cran\-comments\.md$
+^NEWS\.md$
