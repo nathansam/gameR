@@ -21,6 +21,10 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/nathansam/gameR/workflows/R-CMD-check/badge.svg)](https://github.com/nathansam/gameR/actions)
+[![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR)
+![Top language](https://img.shields.io/github/languages/top/nathansam/gameR)
+[![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/licenses/GPL-3.0)
 <!-- badges: end -->
 
 gameR provides a collection of R colour palettes inspired by video games. Note:
