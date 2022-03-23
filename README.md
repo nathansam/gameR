@@ -37,7 +37,6 @@ remotes::install_github("nathansam/gameR")
 
 ``` r
 library(gameR)
-library(scales)
 library(ggplot2)
 ```
 
