@@ -32,6 +32,12 @@ these colour palettes may not be colour blind friendly.
 
 ## Installation
 
+gameR is on CRAN! Install the stable version of gameR with:
+
+```r
+install.packages("gameR")
+```
+
 You can install the development version of gameR from [GitHub](https://github.com/) with:
 
 ``` r
