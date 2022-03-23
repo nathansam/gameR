@@ -27,7 +27,7 @@
     
     <a class="navbar-brand me-2" href="index.html">gameR</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1.9000</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,20 +73,23 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of gameR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>gameR is on CRAN! Install the stable version of gameR with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"gameR"</span><span class="op">)</span></code></pre></div>
+<p>You can install the development version of gameR from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"nathansam/gameR"</span><span class="op">)</span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="getting-started">Getting started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
 </h2>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.constantine-cooke.com/gameR/">gameR</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://scales.r-lib.org" class="external-link">scales</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></code></pre></div>
 <p>At present, paintR only supports discrete colour palettes. These palettes are provided via the <code>paintR_cols()</code> function with the name of the palette passed as an argument. For a full list of the palettes provided by <code>gameR</code>, call <code><a href="reference/gameR_cols.html">gameR_cols()</a></code> without any arguments.</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="op">)</span>
 <span class="co">#&gt; [1] "cups"      "cyberpunk" "fallout"   "gris"      "rayman"    "spirit"   </span>
 <span class="co">#&gt; [7] "splat"     "superbros" "wow"</span></code></pre></div>
@@ -98,63 +101,63 @@
 <div class="section level3">
 <h3 id="cuphead">Cuphead<a class="anchor" aria-label="anchor" href="#cuphead"></a>
 </h3>
-<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"cups"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-5-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="cyberpunk">Cyberpunk<a class="anchor" aria-label="anchor" href="#cyberpunk"></a>
 </h3>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"cyberpunk"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-6-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="fallout">Fallout<a class="anchor" aria-label="anchor" href="#fallout"></a>
 </h3>
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"fallout"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-7-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="gris">Gris<a class="anchor" aria-label="anchor" href="#gris"></a>
 </h3>
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"gris"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-8-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="rayman">Rayman<a class="anchor" aria-label="anchor" href="#rayman"></a>
 </h3>
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"rayman"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-9-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="spiritfarer">Spiritfarer<a class="anchor" aria-label="anchor" href="#spiritfarer"></a>
 </h3>
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"spirit"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-10-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="splatoon">Splatoon<a class="anchor" aria-label="anchor" href="#splatoon"></a>
 </h3>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"splat"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-11-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="super-mario-bros">Super Mario Bros<a class="anchor" aria-label="anchor" href="#super-mario-bros"></a>
 </h3>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"superbros"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-12-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="world-of-warcraft">World of Warcraft<a class="anchor" aria-label="anchor" href="#world-of-warcraft"></a>
 </h3>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"wow"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-13-1.png" width="100%"></p>
 </div>
@@ -163,6 +166,7 @@
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
+<li><a href="https://cloud.r-project.org/package=gameR" class="external-link">View on CRAN</a></li>
 <li><a href="https://github.com/nathansam/gameR/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/nathansam/gameR/issues" class="external-link">Report a bug</a></li>
 </ul>
