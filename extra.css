@@ -7,3 +7,7 @@ color: white !important;
 aside{
   background: rgb(50, 50, 50);
 }
+
+p.text-muted{
+  color:gray !important;
+}
