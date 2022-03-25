@@ -1,3 +1,7 @@
+# gameR 0.0.2
+
+* Added palette based on Tetris ("blocks")
+
 # gameR 0.0.1
 
 * First release of the package

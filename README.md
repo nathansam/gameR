@@ -47,8 +47,8 @@ provided by `gameR`, call `gameR_cols()` without any arguments.
 
 ``` r
 gameR_cols()
-#> [1] "cups"      "cyberpunk" "fallout"   "gris"      "rayman"    "spirit"   
-#> [7] "splat"     "superbros" "wow"
+#>  [1] "blocks"    "cups"      "cyberpunk" "fallout"   "gris"      "rayman"   
+#>  [7] "spirit"    "splat"     "superbros" "wow"
 ```
 
 ## Contributing Palettes
@@ -160,10 +160,18 @@ gameR_cols("superbros")
 
 <img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
+### Tetris
+
+``` r
+gameR_cols("blocks")
+```
+
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+
 ### World of Warcraft
 
 ``` r
 gameR_cols("wow")
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />

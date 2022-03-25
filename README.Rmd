@@ -185,6 +185,16 @@ gameR_cols("superbros")
 plotCol("superbros")
 ```
 
+### Tetris
+
+``` r
+gameR_cols("blocks")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("blocks")
+```
+
 ### World of Warcraft
 
 ``` r

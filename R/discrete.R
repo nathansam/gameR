@@ -1,5 +1,6 @@
 # List of discrete colours
-gameR_colors <- list(cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),
+gameR_colors <- list(blocks =c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00ee00", "#9f00f0", "#ed0000"),
+                     cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),
                      cyberpunk = c("#faf22b", "#49aeec", "#ff193b", "#000000"),
                      fallout = c("#0068b1", "#fff874", "#27f286"),
                      gris = c("#256484", "#e493a3", "#efa225", "#4a938e"),
@@ -12,8 +13,8 @@ gameR_colors <- list(cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6a
 
 #' Choose a gameR palette
 #'
-#' @param palette Character name of palette. Either "cups", "cyberpunk",
-#'   "fallout", "gris", "rayman", "spirit", "splat", "superbros", "wow"
+#' @param palette Character name of palette. Either "blocks", cups", "cyberpunk",
+#'   "fallout", "gris", "rayman", "spirit", "splat", "superbros", or "wow"
 #' @param reverse Logical. Should the palette be reversed? Defaults to FALSE.
 #' @export
 gameR_cols <- function(palette = NULL, reverse = FALSE) {

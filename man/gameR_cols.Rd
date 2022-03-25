@@ -7,8 +7,8 @@
 gameR_cols(palette = NULL, reverse = FALSE)
 }
 \arguments{
-\item{palette}{Character name of palette. Either "cups", "cyberpunk",
-"fallout", "gris", "rayman", "spirit", "splat", "superbros", "wow"}
+\item{palette}{Character name of palette. Either "blocks", cups", "cyberpunk",
+"fallout", "gris", "rayman", "spirit", "splat", "superbros", or "wow"}
 
 \item{reverse}{Logical. Should the palette be reversed? Defaults to FALSE.}
 }
