@@ -75,7 +75,15 @@
 </h1></div>
 <!-- badges: start -->
 
-<p>gameR provides a collection of R colour palettes inspired by video games. Note: these colour palettes may not be colour blind friendly.</p>
+<p>gameR provides a collection of R colour palettes inspired by video games.</p>
+<p><strong>Note</strong>: these colour palettes may <em>not</em> be colour blind friendly. If accessibility is a priority, I recommend either using the <a href="https://CRAN.R-project.org/package=viridis" class="external-link">virdis package</a> or checking your plots before sharing using tools which simulate colour blindness such as <a href="https://www.color-blindness.com/coblis-color-blindness-simulator/" class="external-link">coblis</a></p>
+<p><strong>Table of Contents</strong></p>
+<ul>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#getting-started">Getting started</a></li>
+<li><a href="#palettes">Palettes</a></li>
+<li><a href="#contributing-palettes">Contributing Palettes</a></li>
+</ul>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
@@ -86,6 +94,7 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"nathansam/gameR"</span><span class="op">)</span></code></pre></div>
+<p>The development version of gameR may include additional palettes, however breaking changes may be implemented before the CRAN release of these palettes.</p>
 </div>
 <div class="section level2">
 <h2 id="getting-started">Getting started<a class="anchor" aria-label="anchor" href="#getting-started"></a>
@@ -93,40 +102,17 @@
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://www.constantine-cooke.com/gameR/">gameR</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org" class="external-link">ggplot2</a></span><span class="op">)</span></code></pre></div>
-<p>At present, paintR only supports discrete colour palettes. These palettes are provided via the <code>paintR_cols()</code> function with the name of the palette passed as an argument. For a full list of the palettes provided by <code>gameR</code>, call <code><a href="reference/gameR_cols.html">gameR_cols()</a></code> without any arguments.</p>
+<p>At present, gameR only supports discrete colour palettes. These palettes are provided via the <code><a href="reference/gameR_cols.html">gameR_cols()</a></code> function with the name of the palette passed as an argument. For a full list of the palettes provided by <code>gameR</code>, call <code><a href="reference/gameR_cols.html">gameR_cols()</a></code> without any arguments.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="op">)</span>
-<span class="co">#&gt;  [1] "blocks"    "cups"      "cyberpunk" "fallout"   "gris"      "rayman"   </span>
-<span class="co">#&gt;  [7] "spirit"    "splat"     "superbros" "wow"</span></code></pre></div>
+<span class="co">#&gt;  [1] "blocks"    "cowboy"    "cups"      "cyberpunk" "fallout"   "gris"     </span>
+<span class="co">#&gt;  [7] "ocarina"   "p4g"       "rayman"    "spirit"    "splat"     "superbros"</span>
+<span class="co">#&gt; [13] "wow"</span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="contributing-palettes">Contributing Palettes<a class="anchor" aria-label="anchor" href="#contributing-palettes"></a>
+<h2 id="palettes">Palettes<a class="anchor" aria-label="anchor" href="#palettes"></a>
 </h2>
-<p>Contributions via pull requests are welcome! I would love to have as many video games represented as possible. With that said, there are two requirements I ask of any contributed palettes:</p>
-<ol style="list-style-type: decimal">
-<li>The palette must be at least somewhat distinctive. There are many popular and beloved games, but if the palette suggestion does not evoke the video game that inspired it, it probably should not be contributed.</li>
-<li>Please avoid trademarked names for palette names. I am not entirely sure how far the <a href="https://cran.r-project.org/web/packages/policies.html" class="external-link">CRAN policy</a> extends when it comes to trademarked names but I would rather not risk running afoul of CRAN policy.</li>
-</ol>
-<div class="section level3">
-<h3 id="adding-the-palette-to-the-list">Adding the Palette to the List<a class="anchor" aria-label="anchor" href="#adding-the-palette-to-the-list"></a>
-</h3>
-<p>Adding a new palette is as simple adding a new element to the <code>gameR_colors</code> list in <a href="https://github.com/nathansam/gameR/blob/main/R/discrete.R" class="external-link">R/discrete.R</a>, adding the name of the palette to <code>@param palette</code>, and calling <code>devtools::document()</code> from R to update the package documentation.</p>
-</div>
-<div class="section level3">
-<h3 id="updating-the-readme">Updating the README<a class="anchor" aria-label="anchor" href="#updating-the-readme"></a>
-</h3>
-<p>The readme is generated by <a href="https://github.com/nathansam/gameR/blob/main/README.Rmd" class="external-link">README.Rmd</a>. Please update this file with the palettes you are contributing (the palettes are in alphabetical order) and knit the file before committing and pushing your contributions.</p>
-</div>
-<div class="section level3">
-<h3 id="credit">Credit<a class="anchor" aria-label="anchor" href="#credit"></a>
-</h3>
-<p>If you are contributing palette(s), I would love for your contribution to be recognised. Please feel free to add yourself as a contributor (role = “ctb”) in the <a href="https://github.com/nathansam/gameR/blob/main/DESCRIPTION" class="external-link">DESCRIPTION</a> file.</p>
-</div>
-<div class="section level3">
-<h3 id="palettes">Palettes<a class="anchor" aria-label="anchor" href="#palettes"></a>
-</h3>
-<p>This section presents a list of the palettes provided by gameR listed in alphabetical order of the name of the game which inspired the palette.</p>
-</div>
+<p>This section presents a list of the palettes provided by gameR ordered alphabetically by the name of the game which inspired the palette.</p>
 <div class="section level3">
 <h3 id="cuphead">Cuphead<a class="anchor" aria-label="anchor" href="#cuphead"></a>
 </h3>
@@ -156,46 +142,91 @@
 <p><img src="reference/figures/README-unnamed-chunk-8-1.png" width="100%"></p>
 </div>
 <div class="section level3">
-<h3 id="rayman">Rayman<a class="anchor" aria-label="anchor" href="#rayman"></a>
+<h3 id="legend-of-zelda-ocarina-of-time">Legend of Zelda: Ocarina of Time<a class="anchor" aria-label="anchor" href="#legend-of-zelda-ocarina-of-time"></a>
 </h3>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"rayman"</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"ocarina"</span><span class="op">)</span></code></pre></div>
 <p><img src="reference/figures/README-unnamed-chunk-9-1.png" width="100%"></p>
+</div>
+<div class="section level3">
+<h3 id="persona-4-golden">Persona 4 Golden<a class="anchor" aria-label="anchor" href="#persona-4-golden"></a>
+</h3>
+<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"p4g"</span><span class="op">)</span></code></pre></div>
+<p><img src="reference/figures/README-unnamed-chunk-10-1.png" width="100%"></p>
+</div>
+<div class="section level3">
+<h3 id="rayman">Rayman<a class="anchor" aria-label="anchor" href="#rayman"></a>
+</h3>
+<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"rayman"</span><span class="op">)</span></code></pre></div>
+<p><img src="reference/figures/README-unnamed-chunk-11-1.png" width="100%"></p>
+</div>
+<div class="section level3">
+<h3 id="red-dead-redemption-ii">Red Dead Redemption II<a class="anchor" aria-label="anchor" href="#red-dead-redemption-ii"></a>
+</h3>
+<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"cowboy"</span><span class="op">)</span></code></pre></div>
+<p><img src="reference/figures/README-unnamed-chunk-12-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="spiritfarer">Spiritfarer<a class="anchor" aria-label="anchor" href="#spiritfarer"></a>
 </h3>
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"spirit"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-10-1.png" width="100%"></p>
+<p><img src="reference/figures/README-unnamed-chunk-13-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="splatoon">Splatoon<a class="anchor" aria-label="anchor" href="#splatoon"></a>
 </h3>
-<div class="sourceCode" id="cb11"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"splat"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-11-1.png" width="100%"></p>
+<p><img src="reference/figures/README-unnamed-chunk-14-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="super-mario-bros">Super Mario Bros<a class="anchor" aria-label="anchor" href="#super-mario-bros"></a>
 </h3>
-<div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb15"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"superbros"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-12-1.png" width="100%"></p>
+<p><img src="reference/figures/README-unnamed-chunk-15-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="tetris">Tetris<a class="anchor" aria-label="anchor" href="#tetris"></a>
 </h3>
-<div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb16"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"blocks"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-13-1.png" width="100%"></p>
+<p><img src="reference/figures/README-unnamed-chunk-16-1.png" width="100%"></p>
 </div>
 <div class="section level3">
 <h3 id="world-of-warcraft">World of Warcraft<a class="anchor" aria-label="anchor" href="#world-of-warcraft"></a>
 </h3>
-<div class="sourceCode" id="cb14"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb17"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="reference/gameR_cols.html">gameR_cols</a></span><span class="op">(</span><span class="st">"wow"</span><span class="op">)</span></code></pre></div>
-<p><img src="reference/figures/README-unnamed-chunk-14-1.png" width="100%"></p>
+<p><img src="reference/figures/README-unnamed-chunk-17-1.png" width="100%"></p>
+</div>
+</div>
+<div class="section level2">
+<h2 id="contributing-palettes">Contributing Palettes<a class="anchor" aria-label="anchor" href="#contributing-palettes"></a>
+</h2>
+<p>Contributions via pull requests are welcome! I would love to have as many video games represented as possible. With that said, there are two requirements I ask of any contributed palettes:</p>
+<ol style="list-style-type: decimal">
+<li>The palette must be at least somewhat distinctive. There are many popular and beloved games, but if the palette suggestion does not evoke the video game that inspired it, it probably should not be contributed.</li>
+<li>Please avoid trademarked names for palette names. I am not entirely sure how far the <a href="https://cran.r-project.org/web/packages/policies.html" class="external-link">CRAN policy</a> extends when it comes to trademarked names but I would rather not risk running afoul of CRAN policy.</li>
+</ol>
+<div class="section level3">
+<h3 id="adding-a-new-palette-to-the-gamer-palette-list">Adding a New Palette to the gameR Palette List<a class="anchor" aria-label="anchor" href="#adding-a-new-palette-to-the-gamer-palette-list"></a>
+</h3>
+<p>Adding a new palette is as simple adding a new element to the <code>gameR_colors</code> list in <a href="https://github.com/nathansam/gameR/blob/main/R/discrete.R" class="external-link">R/discrete.R</a>, adding the name of the palette to <code>@param palette</code>, and calling <code>devtools::document()</code> from R to update the package documentation.</p>
+</div>
+<div class="section level3">
+<h3 id="updating-the-readme">Updating the README<a class="anchor" aria-label="anchor" href="#updating-the-readme"></a>
+</h3>
+<p>The readme is generated by <a href="https://github.com/nathansam/gameR/blob/main/README.Rmd" class="external-link">README.Rmd</a>. Please update this file with the palettes you are contributing (the palettes are in alphabetical order) and knit the file before committing and pushing your contributions.</p>
+</div>
+<div class="section level3">
+<h3 id="credit">Credit<a class="anchor" aria-label="anchor" href="#credit"></a>
+</h3>
+<p>If you are contributing palette(s), I would love for your contribution to be recognised. Please feel free to add yourself as a contributor (role = “ctb”) in the <a href="https://github.com/nathansam/gameR/blob/main/DESCRIPTION" class="external-link">DESCRIPTION</a> file.</p>
 </div>
 </div>
 </div>
