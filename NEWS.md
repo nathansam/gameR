@@ -1,6 +1,9 @@
 # gameR 0.0.2
 
 * Added palette based on Tetris ("blocks")
+* Added palette based on Red Dead Redemption II ("cowboy")
+* Added palette based on Persona 4 Golden ("p4g")
+* Added palette based on Legend of Zelda: Ocarina of Time ("ocarina")
 
 # gameR 0.0.1
 
