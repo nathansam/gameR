@@ -11,7 +11,11 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Suggests: 
     testthat (>= 3.0.0),
-    ggplot2
+    tidyverse,
+    palmerpenguins,
+    knitr,
+    rmarkdown
 Config/testthat/edition: 3
 URL: https://www.constantine-cooke.com/gameR/
 BugReports: https://github.com/nathansam/gameR/issues
+VignetteBuilder: knitr
