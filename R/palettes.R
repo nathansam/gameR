@@ -1,4 +1,6 @@
-# List of discrete colours
+#' List of palettes
+#' @param palette Character name of palette. Either
+#'   `r paste(names(gameR_colors), sep="", collapse=", ")`
 gameR_colors <- list(blocks =c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00ee00", "#9f00f0", "#ed0000"),
                      cowboy = c("#cf0512", "#000000", "#ffab00"),
                      cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),
@@ -13,24 +15,3 @@ gameR_colors <- list(blocks =c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00e
                      superbros = c("#e3281f", "#3aa534", "#ff5885", "#fbc926", "#511e9d"),
                      wow = c( "#002b5d", "#c6940f", "#9d0004", "#1c1c1c")
                      )
-
-#' Choose a gameR palette
-#'
-#' @param palette Character name of palette. Either "blocks", "cowboy",
-#'   cups", "cyberpunk", "fallout", "gris", "ocarina", "p4g", "rayman", "spirit",
-#'   "splat", "superbros", or "wow"
-#' @param reverse Logical. Should the palette be reversed? Defaults to FALSE.
-#' @export
-gameR_cols <- function(palette = NULL, reverse = FALSE) {
-
-  if (is.null(palette)) return (names(gameR_colors))
-  if(!(palette %in% names(gameR_colors))){
-    stop("palette should be one of the palettes provided by gameR \n")
-  }
-
-  pal <- gameR_colors[[palette]]
-  if (reverse) pal <- rev(pal)
-  pal
-}
-
-

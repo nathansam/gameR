@@ -67,10 +67,11 @@ library(gameR)
 library(ggplot2)
 ```
 
-At present, gameR only supports discrete colour palettes. These palettes are
-provided via the `gameR_cols()` function with the name of the palette passed as
-an argument. For a full list of the palettes provided by `gameR`, call
-`gameR_cols()` without any arguments. 
+gameR provides either discrete colour palettes or continuous palettes generated
+by interpolating a discrete palette. Discrete palettes and continuous palettes
+are provided via the `gameR_cols()` and `gameR_cont()` functions respectively
+with the name of the palette passed as an argument. For a full list of the
+palettes provided by `gameR`, call one of these functions without any arguments. 
 
 ```{R}
 gameR_cols()
@@ -249,9 +250,8 @@ of any contributed palettes:
 
 Adding a new palette is as simple adding a new element to the `gameR_colors`
 list in
-[R/discrete.R](https://github.com/nathansam/gameR/blob/main/R/discrete.R),
-adding the name of the palette to `@param palette`, and calling
-`devtools::document()` from R to update the package documentation. 
+[R/palettes.R](https://github.com/nathansam/gameR/blob/main/R/palettes.R),
+and calling `devtools::document()` from R to update the package documentation. 
 
 ### Updating the README
 
