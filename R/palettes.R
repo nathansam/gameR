@@ -1,6 +1,4 @@
-#' List of palettes
-#' @param palette Character name of palette. Either
-#'   `r paste(names(gameR_colors), sep="", collapse=", ")`
+# List of palettes
 gameR_colors <- list(blocks =c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00ee00", "#9f00f0", "#ed0000"),
                      cowboy = c("#cf0512", "#000000", "#ffab00"),
                      cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),

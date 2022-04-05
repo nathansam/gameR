@@ -1,5 +1,6 @@
 #' Choose a gameR palette
-#' @inheritParams gameR_colors
+#' @param palette Character name of palette. Either
+#'   `r paste(names(gameR_colors), sep="", collapse=", ")`
 #' @param reverse Logical. Should the palette be reversed? Defaults to FALSE.
 #' @return Vector containing a hex colour code representation for the chosen
 #'   palette
