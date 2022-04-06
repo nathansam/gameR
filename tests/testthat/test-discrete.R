@@ -11,7 +11,13 @@ test_that("Reverse argument works as expected", {
                c("#ffab00","#000000", "#cf0512"))
 })
 
+test_that("Calling discrete function with no arguments gives palette names", {
+  expect_equal(gameR_cols(),
+               names(gameR_colors))
+})
+
 test_that("Calling function with no arguments gives palette names", {
   expect_equal(gameR_cols(),
                names(gameR_colors))
 })
+

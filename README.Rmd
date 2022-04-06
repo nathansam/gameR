@@ -15,8 +15,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
-
 # gameR <img src="man/figures/sticker.png" align="right" width="150"/>
 
 <!-- badges: start -->
@@ -40,7 +38,6 @@ plots before sharing using tools which simulate colour blindness such as [coblis
 - [Getting started](#getting-started)
 - [Palettes](#palettes)
 - [Contributing Palettes](#contributing-palettes)
-
 
 ## Installation
 
@@ -110,7 +107,6 @@ gameR_cols("cups")
 plotCol("cups")
 ```
 
-
 ### Cyberpunk
 
 ``` r
@@ -126,7 +122,6 @@ plotCol("cyberpunk")
 ``` r
 gameR_cols("fallout")
 ```
-
 
 ```{R, fig.height = 1, echo = FALSE}
 plotCol("fallout")

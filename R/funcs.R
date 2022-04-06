@@ -34,8 +34,9 @@ gameR_cont <- function(n,
                        bias = NULL,
                        interpolate = "spline") {
 
-  if( is.null(n) | is.na(n) | n%%1!=0 | n < 1) {
-    stop("n should be a positive integer")
+  if (is.character(n)) stop("n should be of type numeric\n")
+  if (is.null(n) | is.na(n) | n%%1!=0 | n < 1) {
+    stop("n should be a positive integer\n")
   }
 
   pal <- gameR_cols(palette = palette, reverse = reverse)
