@@ -12,6 +12,8 @@
 language](https://img.shields.io/github/languages/top/nathansam/gameR)
 [![License:
 GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/licenses/GPL-3.0)
+[![CRAN RStudio mirror
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR)
 <!-- badges: end -->
 
 gameR provides a collection of R colour palettes inspired by video
@@ -28,7 +30,7 @@ plots before sharing using tools which simulate colour blindness such as
 -   [Installation](#installation)
 -   [Getting started](#getting-started)
 -   [Palettes](#palettes)
--   [Contributing Palettes](#contributing-palettes)
+-   [Contributing new palettes](#contributing-new-palettes)
 
 ## Installation
 
@@ -180,7 +182,7 @@ gameR_cols("wow")
 
 <img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
 
-## Contributing Palettes
+## Contributing new palettes
 
 Contributions via pull requests are welcome! I would love to have as
 many video games represented as possible. With that said, there are two
