@@ -1,0 +1,114 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "identifier": "gameR",
+  "description": "Palettes based on video games.",
+  "name": "gameR: Color Palettes Inspired by Video Games",
+  "codeRepository": "https://github.com/nathansam/gameR",
+  "issueTracker": "https://github.com/nathansam/gameR/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "0.0.2.9000",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 4.1.3 (2022-03-10)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Nathan",
+      "familyName": "Constantine-Cooke",
+      "email": "nathan.constantine-cooke@ed.ac.uk",
+      "@id": "https://orcid.org/0000-0002-4437-8713"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Nathan",
+      "familyName": "Constantine-Cooke",
+      "email": "nathan.constantine-cooke@ed.ac.uk",
+      "@id": "https://orcid.org/0000-0002-4437-8713"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "version": ">= 3.0.0",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "tidyverse",
+      "name": "tidyverse",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=tidyverse"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "palmerpenguins",
+      "name": "palmerpenguins",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=palmerpenguins"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "knitr",
+      "name": "knitr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=knitr"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "rmarkdown",
+      "name": "rmarkdown",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+    }
+  ],
+  "softwareRequirements": {
+    "SystemRequirements": null
+  },
+  "fileSize": "261.757KB",
+  "relatedLink": ["https://www.constantine-cooke.com/gameR/", "https://CRAN.R-project.org/package=gameR"],
+  "releaseNotes": "https://github.com/nathansam/gameR/blob/master/NEWS.md",
+  "readme": "https://github.com/nathansam/gameR/blob/main/README.md",
+  "contIntegration": ["https://github.com/nathansam/gameR/actions", "https://app.codecov.io/gh/nathansam/gameR"],
+  "developmentStatus": "https://www.repostatus.org/#active",
+  "keywords": ["r", "r-package", "rstats", "gaming", "palettes", "ggplot2"]
+}

@@ -40,17 +40,18 @@ gameR is on CRAN! Install the stable version of gameR with:
 install.packages("gameR")
 ```
 
-You can install the development version of gameR from
-[GitHub](https://github.com/) with:
+You can install the development version of gameR, which may contain
+additional palettes, from [r-universe](https://r-universe.dev/search/)
+with:
 
 ``` r
-# install.packages("devtools")
-remotes::install_github("nathansam/gameR")
-```
+# Enable universe(s) by nathansam
+options(repos = c(
+  nathansam = 'https://nathansam.r-universe.dev',
+  CRAN = 'https://cloud.r-project.org'))
 
-The development version of gameR may include additional palettes,
-however breaking changes may be implemented before the CRAN release of
-these palettes.
+install.packages('gameR')
+```
 
 ## Getting started
 

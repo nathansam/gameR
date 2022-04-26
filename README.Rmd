@@ -22,6 +22,7 @@ knitr::opts_chunk$set(
 [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR)
 ![Top language](https://img.shields.io/github/languages/top/nathansam/gameR)
+[![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/licenses/GPL-3.0)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR)
 <!-- badges: end -->
@@ -48,15 +49,17 @@ gameR is on CRAN! Install the stable version of gameR with:
 install.packages("gameR")
 ```
 
-You can install the development version of gameR from [GitHub](https://github.com/) with:
+You can install the development version of gameR, which may contain additional
+palettes, from [r-universe](https://r-universe.dev/search/) with:
 
-``` r
-# install.packages("devtools")
-remotes::install_github("nathansam/gameR")
+```{R dev, eval = FALSE}
+# Enable universe(s) by nathansam
+options(repos = c(
+  nathansam = 'https://nathansam.r-universe.dev',
+  CRAN = 'https://cloud.r-project.org'))
+
+install.packages('gameR')
 ```
-
-The development version of gameR may include additional palettes, however
-breaking changes may be implemented before the CRAN release of these palettes. 
 
 ## Getting started
 
