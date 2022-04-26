@@ -3,7 +3,7 @@ pkgdown: 2.0.3
 pkgdown_sha: ~
 articles:
   gameR: gameR.html
-last_built: 2022-04-26T14:30Z
+last_built: 2022-04-26T14:37Z
 urls:
   reference: https://www.constantine-cooke.com/gameR/reference
   article: https://www.constantine-cooke.com/gameR/articles
