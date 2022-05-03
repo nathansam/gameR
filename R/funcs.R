@@ -6,9 +6,10 @@
 #'   palette
 #' @export
 gameR_cols <- function(palette = NULL, reverse = FALSE) {
-
-  if (is.null(palette)) return (names(gameR_colors))
-  if(!(palette %in% names(gameR_colors))){
+  if (is.null(palette)) {
+    return(names(gameR_colors))
+  }
+  if (!(palette %in% names(gameR_colors))) {
     stop("palette should be one of the palettes provided by gameR \n")
   }
 
@@ -33,9 +34,8 @@ gameR_cont <- function(n,
                        reverse = FALSE,
                        bias = NULL,
                        interpolate = "spline") {
-
   if (is.character(n)) stop("n should be of type numeric\n")
-  if (is.null(n) | is.na(n) | n%%1!=0 | n < 1) {
+  if (is.null(n) | is.na(n) | n %% 1 != 0 | n < 1) {
     stop("n should be a positive integer\n")
   }
 
@@ -46,7 +46,8 @@ gameR_cont <- function(n,
   }
 
   colfunc <- colorRampPalette(pal,
-                              interpolate = interpolate,
-                              bias = bias)
+    interpolate = interpolate,
+    bias = bias
+  )
   colfunc(n)
 }
