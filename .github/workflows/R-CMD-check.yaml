@@ -20,7 +20,7 @@ jobs:
 
       - name: Lint package
         run: styler::style_pkg()
-        shell: Rscript {0}a
+        shell: Rscript {0}
       - name: Commit and push changes
         run: |
           if [[ `git status --porcelain` ]]; then
