@@ -10,7 +10,6 @@ jobs:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
-
       - uses: r-lib/actions/setup-r@v1
         with:
           use-public-rspm: true
@@ -22,6 +21,13 @@ jobs:
       - name: Lint package
         run: styler::style_pkg()
         shell: Rscript {0}
+      - name: Commit and push changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m "Lint package"
+          git push
   R-CMD-check:
     runs-on: ${{ matrix.config.os }}
 
