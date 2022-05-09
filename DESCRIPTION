@@ -14,8 +14,10 @@ Suggests:
     tidyverse,
     palmerpenguins,
     knitr,
-    rmarkdown
+    rmarkdown,
+    spelling
 Config/testthat/edition: 3
 URL: https://www.constantine-cooke.com/gameR/
 BugReports: https://github.com/nathansam/gameR/issues
 VignetteBuilder: knitr
+Language: en-US

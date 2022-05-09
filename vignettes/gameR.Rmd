@@ -24,7 +24,7 @@ data("penguins")
 ```
 
 Here, we use the `penguins` dataset from the `{palmerpenguins}` package to 
-provide simple examples of how gameR can be used to customise a plot using either `{ggplot2}` or base R. We will plot a scatter plot of flipper length (in mm) against body mass (in g) with the points colored by species.  
+provide simple examples of how gameR can be used to customize a plot using either `{ggplot2}` or base R. We will plot a scatter plot of flipper length (in mm) against body mass (in g) with the points colored by species.  
 
 ## Using `{ggplot2}`
 

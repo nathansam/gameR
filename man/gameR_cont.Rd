@@ -13,7 +13,7 @@ gameR_cont(
 )
 }
 \arguments{
-\item{n}{Number of colours to be generated}
+\item{n}{Number of colors to be generated}
 
 \item{palette}{Character name of palette. Either
 blocks, cowboy, cups, cyberpunk, fallout, gris, ocarina, p4g, rayman, spirit, splat, superbros, wow)`}
@@ -27,7 +27,7 @@ give more widely spaced colors at the high end.}
 interpolation}
 }
 \value{
-Vector containing a hex colour code representation for the chosen
+Vector containing a hex color code representation for the chosen
 palette interpolated across \code{n} values
 }
 \description{

@@ -13,7 +13,7 @@ blocks, cowboy, cups, cyberpunk, fallout, gris, ocarina, p4g, rayman, spirit, sp
 \item{reverse}{Logical. Should the palette be reversed? Defaults to FALSE.}
 }
 \value{
-Vector containing a hex colour code representation for the chosen
+Vector containing a hex color code representation for the chosen
 palette
 }
 \description{
