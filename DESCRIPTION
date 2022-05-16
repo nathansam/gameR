@@ -1,9 +1,12 @@
 Package: gameR
 Title: Color Palettes Inspired by Video Games
 Version: 0.0.2.9000
-Authors@R: 
+Authors@R: c(
     person("Nathan", "Constantine-Cooke", , "nathan.constantine-cooke@ed.ac.uk", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0002-4437-8713"))
+           comment = c(ORCID = "0000-0002-4437-8713")),
+    person("Hugh", "Warden", , "hugh.warden@outlook.com", role = c("ctb"),
+           comment = c(ORCID = "0000-0002-4308-7316 "))
+    )
 Description: Palettes based on video games.
 License: GPL (>= 3)
 Encoding: UTF-8
