@@ -151,6 +151,16 @@ gameR_cols("ocarina")
 plotCol("ocarina")
 ```
 
+### Pacman
+
+``` r
+gameR_cols("pman")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("pman")
+```
+
 ### Persona 4 Golden
 
 ``` r

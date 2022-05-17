@@ -8,6 +8,7 @@ gameR_colors <- list(
   gris = c("#256484", "#e493a3", "#efa225", "#4a938e"),
   ocarina = c("#02940a", "#4f4499", "#e2e844", "#e94117"),
   p4g = c("#ffe52c", "#7fe6ef", "#faa622", "#c4d70c", "#c22303"),
+  pman = c("#fffd54", "#e93423", "#5acafa", "#f3aa3c", "#f2acda"),
   rayman = c("#945682", "#fcb24c", "#be3b45"),
   spirit = c("#8fe7fa", "#b41d1f", "#55964b", "#e9bf4c"),
   splat = c("#F02D7D", "#19D719", "#fffa2f", "#0132fa"),
