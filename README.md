@@ -67,8 +67,8 @@ passed as an argument. For a full list of the palettes provided by
 ``` r
 gameR_cols()
 #>  [1] "blocks"    "border"    "cowboy"    "cups"      "cyberpunk" "fallout"  
-#>  [7] "gris"      "ocarina"   "p4g"       "pman"      "rayman"    "spirit"   
-#> [13] "splat"     "superbros" "wow"
+#>  [7] "gris"      "ocarina"   "p4g"       "pman"      "rayman"    "sonic"    
+#> [13] "spirit"    "splat"     "superbros" "wow"
 ```
 
 ## Palettes
@@ -156,13 +156,21 @@ gameR_cols("cowboy")
 
 <img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
+### Sonic the Hedgehog
+
+``` r
+gameR_cols("sonic")
+```
+
+<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
+
 ### Spiritfarer
 
 ``` r
 gameR_cols("spirit")
 ```
 
-<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
 
 ### Splatoon
 
@@ -170,7 +178,7 @@ gameR_cols("spirit")
 gameR_cols("splat")
 ```
 
-<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
 
 ### Super Mario Bros
 
@@ -178,7 +186,7 @@ gameR_cols("splat")
 gameR_cols("superbros")
 ```
 
-<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
 
 ### Tetris
 
@@ -186,7 +194,7 @@ gameR_cols("superbros")
 gameR_cols("blocks")
 ```
 
-<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
 
 ### World of Warcraft
 
@@ -194,7 +202,7 @@ gameR_cols("blocks")
 gameR_cols("wow")
 ```
 
-<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
 
 ## Contributing new palettes
 

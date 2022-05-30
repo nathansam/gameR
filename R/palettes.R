@@ -11,6 +11,7 @@ gameR_colors <- list(
   p4g = c("#ffe52c", "#7fe6ef", "#faa622", "#c4d70c", "#c22303"),
   pman = c("#fffd54", "#e93423", "#5acafa", "#f3aa3c", "#f2acda"),
   rayman = c("#945682", "#fcb24c", "#be3b45"),
+  sonic = c("#4040e0", "#c00000", "#e0e000", "#42a606"),
   spirit = c("#8fe7fa", "#b41d1f", "#55964b", "#e9bf4c"),
   splat = c("#F02D7D", "#19D719", "#fffa2f", "#0132fa"),
   superbros = c("#e3281f", "#3aa534", "#ff5885", "#fbc926", "#511e9d"),

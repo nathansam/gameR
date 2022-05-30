@@ -202,6 +202,16 @@ gameR_cols("cowboy")
 plotCol("cowboy")
 ```
 
+### Sonic the Hedgehog
+
+``` r
+gameR_cols("sonic")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("sonic")
+```
+
 ### Spiritfarer
 
 ``` r
