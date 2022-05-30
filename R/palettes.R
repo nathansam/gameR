@@ -1,6 +1,7 @@
 # List of palettes
 gameR_colors <- list(
   blocks = c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00ee00", "#9f00f0", "#ed0000"),
+  border = c("#a51808", "#fbc528", "#dba68f"),
   cowboy = c("#cf0512", "#000000", "#ffab00"),
   cups = c("#df4418", "#63a0bf", "#ffcf10", "#a6da38", "#7b6aa1"),
   cyberpunk = c("#faf22b", "#49aeec", "#ff193b", "#000000"),
