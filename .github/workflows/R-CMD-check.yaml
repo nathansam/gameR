@@ -21,7 +21,7 @@ jobs:
           extra-packages: local::.
 
       - name: Render README
-        run: rmarkdown::render("README.Rmd")
+        run: rmarkdown::render("README.Rmd", rmarkdown::github_document(html_preview = FALSE))
         shell: Rscript {0}
       - name: Commit and push changes
         run: |
@@ -32,7 +32,7 @@ jobs:
            git commit -m "Re-render README"
            git push
           fi
-          
+
   lint-package:
     runs-on: ubuntu-latest
     env:
@@ -44,7 +44,7 @@ jobs:
           use-public-rspm: true
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          extra-packages: | 
+          extra-packages: |
             any::styler
             any::roxygen2
       - name: Lint package
