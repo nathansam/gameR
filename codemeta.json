@@ -7,13 +7,13 @@
   "codeRepository": "https://github.com/nathansam/gameR",
   "issueTracker": "https://github.com/nathansam/gameR/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.0.2.9000",
+  "version": "0.0.3",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.3 (2022-03-10)",
+  "runtimePlatform": "R version 4.2.0 (2022-04-22)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -27,6 +27,15 @@
       "familyName": "Constantine-Cooke",
       "email": "nathan.constantine-cooke@ed.ac.uk",
       "@id": "https://orcid.org/0000-0002-4437-8713"
+    }
+  ],
+  "contributor": [
+    {
+      "@type": "Person",
+      "givenName": "Hugh",
+      "familyName": "Warden",
+      "email": "hugh.warden@outlook.com",
+      "@id": "https://orcid.org/0000-0002-4308-7316"
     }
   ],
   "maintainer": [
@@ -99,12 +108,24 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=rmarkdown"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "spelling",
+      "name": "spelling",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=spelling"
     }
   ],
   "softwareRequirements": {
     "SystemRequirements": null
   },
-  "fileSize": "261.757KB",
+  "fileSize": "266.594KB",
   "relatedLink": ["https://www.constantine-cooke.com/gameR/", "https://CRAN.R-project.org/package=gameR"],
   "releaseNotes": "https://github.com/nathansam/gameR/blob/master/NEWS.md",
   "readme": "https://github.com/nathansam/gameR/blob/main/README.md",
