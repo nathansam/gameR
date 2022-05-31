@@ -1,3 +1,9 @@
+# gameR 0.0.3
+
+* Added palette based on Pac-Man ("pman")
+* Added palette based on Sonic the Hedgehog ("sonic")
+* Added palette based on Borderlands ("border")
+
 # gameR 0.0.2
 
 * Added palette based on Tetris ("blocks")

@@ -162,7 +162,7 @@ gameR_cols("ocarina")
 plotCol("ocarina")
 ```
 
-### Pacman
+### Pac-Man
 
 ``` r
 gameR_cols("pman")
