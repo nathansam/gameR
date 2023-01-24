@@ -87,7 +87,7 @@ plotCol <- function(palette) {
   x <- 1:length(colors)
   test <- data.frame(x = x, y = 1, colors = as.factor(x))
   p <- ggplot(data = test, aes(x = x, y = y, fill = colors)) +
-    geom_tile(color = "black", size = 0.3) +
+    geom_tile(color = "black", linewidth = 0.3) +
     scale_fill_manual(values = colors) +
     theme_void() +
     theme(
