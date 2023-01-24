@@ -55,10 +55,11 @@ palettes, from [r-universe](https://r-universe.dev/search/) with:
 ```{R dev, eval = FALSE}
 # Enable universe(s) by nathansam
 options(repos = c(
-  nathansam = 'https://nathansam.r-universe.dev',
-  CRAN = 'https://cloud.r-project.org'))
+  nathansam = "https://nathansam.r-universe.dev",
+  CRAN = "https://cloud.r-project.org"
+))
 
-install.packages('gameR')
+install.packages("gameR")
 ```
 
 ## Getting started
@@ -81,19 +82,20 @@ gameR_cols()
 ## Palettes
 
 ```{R, echo = FALSE}
-plotCol <- function(palette){
+plotCol <- function(palette) {
   colors <- gameR_cols(palette)
   x <- 1:length(colors)
   test <- data.frame(x = x, y = 1, colors = as.factor(x))
-  p <- ggplot(data = test, aes(x = x, y = y, fill = colors)) + 
+  p <- ggplot(data = test, aes(x = x, y = y, fill = colors)) +
     geom_tile(color = "black", size = 0.3) +
     scale_fill_manual(values = colors) +
     theme_void() +
-    theme(legend.position = "none",
-          plot.background = element_rect(fill = rgb(60, 60, 60,
-                                                    maxColorValue = 255)
-                                         )
-          )
+    theme(
+      legend.position = "none",
+      plot.background = element_rect(fill = rgb(60, 60, 60,
+        maxColorValue = 255
+      ))
+    )
   print(p)
 }
 ```
