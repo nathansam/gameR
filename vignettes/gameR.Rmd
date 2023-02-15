@@ -18,7 +18,8 @@ knitr::opts_chunk$set(
 
 ```{R setup, message = FALSE}
 library(gameR)
-library(tidyverse)
+library(ggplot2)
+library(magrittr)
 library(palmerpenguins)
 data("penguins")
 ```
