@@ -1,3 +1,7 @@
+# gameR 0.0.4
+
+Replaced "tidyverse" in `suggests` with "ggplot2" and "magrittr".
+
 # gameR 0.0.3
 
 * Added palette based on Pac-Man ("pman")

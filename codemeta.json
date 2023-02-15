@@ -4,16 +4,17 @@
   "identifier": "gameR",
   "description": "Palettes based on video games.",
   "name": "gameR: Color Palettes Inspired by Video Games",
-  "codeRepository": "https://github.com/nathansam/gameR",
+  "relatedLink": "https://www.constantine-cooke.com/gameR/",
+  "codeRepository": "https://github.com/nathansam/gameR/",
   "issueTracker": "https://github.com/nathansam/gameR/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.2.0 (2022-04-22)",
+  "runtimePlatform": "R version 4.2.2 (2022-10-31)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -60,6 +61,30 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=testthat"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "ggplot2",
+      "name": "ggplot2",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "magrittr",
+      "name": "magrittr",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=magrittr"
     },
     {
       "@type": "SoftwareApplication",
@@ -125,11 +150,5 @@
   "softwareRequirements": {
     "SystemRequirements": null
   },
-  "fileSize": "266.594KB",
-  "relatedLink": ["https://www.constantine-cooke.com/gameR/", "https://CRAN.R-project.org/package=gameR"],
-  "releaseNotes": "https://github.com/nathansam/gameR/blob/master/NEWS.md",
-  "readme": "https://github.com/nathansam/gameR/blob/main/README.md",
-  "contIntegration": ["https://github.com/nathansam/gameR/actions", "https://app.codecov.io/gh/nathansam/gameR"],
-  "developmentStatus": "https://www.repostatus.org/#active",
-  "keywords": ["r", "r-package", "rstats", "gaming", "palettes", "ggplot2"]
+  "fileSize": "266.654KB"
 }

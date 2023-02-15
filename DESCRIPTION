@@ -1,6 +1,6 @@
 Package: gameR
 Title: Color Palettes Inspired by Video Games
-Version: 0.0.3.9000
+Version: 0.0.4
 Authors@R: c(
     person("Nathan", "Constantine-Cooke", , "nathan.constantine-cooke@ed.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4437-8713")),
@@ -22,7 +22,8 @@ Suggests:
     rmarkdown,
     spelling
 Config/testthat/edition: 3
-URL: https://www.constantine-cooke.com/gameR/
+URL: https://www.constantine-cooke.com/gameR/,
+    https://github.com/nathansam/gameR/
 BugReports: https://github.com/nathansam/gameR/issues
 VignetteBuilder: knitr
 Language: en-US
