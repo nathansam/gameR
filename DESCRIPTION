@@ -1,6 +1,6 @@
 Package: gameR
 Title: Color Palettes Inspired by Video Games
-Version: 0.0.4
+Version: 0.0.4.9000
 Authors@R: c(
     person("Nathan", "Constantine-Cooke", , "nathan.constantine-cooke@ed.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4437-8713")),
@@ -16,7 +16,6 @@ Suggests:
     testthat (>= 3.0.0),
     ggplot2,
     magrittr,
-    tidyverse,
     palmerpenguins,
     knitr,
     rmarkdown,
