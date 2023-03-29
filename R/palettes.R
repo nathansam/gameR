@@ -1,5 +1,6 @@
 # List of palettes
 gameR_colors <- list(
+  banjo = c("#a73c18", "#053c97", "#ff101c", "#fde337", "#066517"),
   blocks = c("#00edef", "#0000ec", "#f19f00", "#f0f100", "#00ee00", "#9f00f0", "#ed0000"),
   border = c("#a51808", "#fbc528", "#dba68f"),
   cowboy = c("#cf0512", "#000000", "#ffab00"),

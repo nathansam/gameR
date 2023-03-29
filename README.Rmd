@@ -103,6 +103,16 @@ plotCol <- function(palette) {
 This section presents a list of the palettes provided by gameR ordered
 alphabetically by the name of the game which inspired the palette. 
 
+### Banjo-Kazooie
+
+``` r
+gameR_cols("banjo")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("banjo")
+```
+
 ### Borderlands
 
 ``` r
