@@ -1,3 +1,9 @@
+# gameR 0.0.5
+
+* Added palette based on Okami ("okami")
+* Added palette based on Banjo-Kazooie ("banjo")
+* Added palette based on Kirby ("kirby")
+
 # gameR 0.0.4
 
 Replaced "tidyverse" in `suggests` with "ggplot2" and "magrittr".
