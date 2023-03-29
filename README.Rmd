@@ -164,6 +164,17 @@ gameR_cols("ocarina")
 plotCol("ocarina")
 ```
 
+### Okami
+
+``` r
+gameR_cols("okami")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("okami")
+```
+
+
 ### Pac-Man
 
 ``` r

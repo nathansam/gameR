@@ -5,12 +5,12 @@
 
 <!-- badges: start -->
 
-| Usage                                                                                                                            | Release                                                                                                        | Development                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0/)                | [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR) | [![R-CMD-check](https://github.com/nathansam/gameR/workflows/CI/badge.svg)](https://github.com/nathansam/gameR/actions)                                                                                |
-| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)                                    | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev)       | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)                                                            |
-| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |                                                                                                                | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
-|                                                                                                                                  |                                                                                                                | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org)                                                            |
+| Usage                                                                                                                            | Release                                                                                                      | Development                                                                                                                                                                                            |
+|----------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0/)                | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR) | [![R-CMD-check](https://github.com/nathansam/gameR/workflows/CI/badge.svg)](https://github.com/nathansam/gameR/actions)                                                                                |
+| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)                                    | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev)     | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)                                                            |
+| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |                                                                                                              | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
+|                                                                                                                                  |                                                                                                              | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org)                                                            |
 
 <!-- badges: end -->
 
@@ -24,14 +24,14 @@ plots before sharing using tools which simulate color blindness such as
 
 **Table of Contents**
 
-  - [Installation](#installation)
-  - [Getting started](#getting-started)
-  - [Palettes](#palettes)
-  - [Contributing new palettes](#contributing-new-palettes)
+- [Installation](#installation)
+- [Getting started](#getting-started)
+- [Palettes](#palettes)
+- [Contributing new palettes](#contributing-new-palettes)
 
 ## Installation
 
-gameR is on CRAN\! Install the stable version of gameR with:
+gameR is on CRAN! Install the stable version of gameR with:
 
 ``` r
 install.packages("gameR")
@@ -68,8 +68,8 @@ passed as an argument. For a full list of the palettes provided by
 ``` r
 gameR_cols()
 #>  [1] "blocks"    "border"    "cowboy"    "cups"      "cyberpunk" "fallout"  
-#>  [7] "gris"      "ocarina"   "p4g"       "pman"      "rayman"    "sonic"    
-#> [13] "spirit"    "splat"     "superbros" "wow"
+#>  [7] "gris"      "ocarina"   "okami"     "p4g"       "pman"      "rayman"   
+#> [13] "sonic"     "spirit"    "splat"     "superbros" "wow"
 ```
 
 ## Palettes
@@ -125,13 +125,21 @@ gameR_cols("ocarina")
 
 <img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
 
+### Okami
+
+``` r
+gameR_cols("okami")
+```
+
+<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+
 ### Pac-Man
 
 ``` r
 gameR_cols("pman")
 ```
 
-<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
 ### Persona 4 Golden
 
@@ -139,7 +147,7 @@ gameR_cols("pman")
 gameR_cols("p4g")
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
 
 ### Rayman
 
@@ -147,7 +155,7 @@ gameR_cols("p4g")
 gameR_cols("rayman")
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
 ### Red Dead Redemption II
 
@@ -155,7 +163,7 @@ gameR_cols("rayman")
 gameR_cols("cowboy")
 ```
 
-<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
 
 ### Sonic the Hedgehog
 
@@ -163,7 +171,7 @@ gameR_cols("cowboy")
 gameR_cols("sonic")
 ```
 
-<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
 
 ### Spiritfarer
 
@@ -171,7 +179,7 @@ gameR_cols("sonic")
 gameR_cols("spirit")
 ```
 
-<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
 
 ### Splatoon
 
@@ -179,7 +187,7 @@ gameR_cols("spirit")
 gameR_cols("splat")
 ```
 
-<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
 
 ### Super Mario Bros
 
@@ -187,7 +195,7 @@ gameR_cols("splat")
 gameR_cols("superbros")
 ```
 
-<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
 
 ### Tetris
 
@@ -195,7 +203,7 @@ gameR_cols("superbros")
 gameR_cols("blocks")
 ```
 
-<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
 
 ### World of Warcraft
 
@@ -203,11 +211,11 @@ gameR_cols("blocks")
 gameR_cols("wow")
 ```
 
-<img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-21-1.png" width="100%" />
 
 ## Contributing new palettes
 
-Contributions via pull requests are welcome\! I would love to have as
+Contributions via pull requests are welcome! I would love to have as
 many video games represented as possible. With that said, there are two
 requirements I ask of any contributed palettes:
 
