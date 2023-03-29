@@ -164,6 +164,16 @@ gameR_cols("gris")
 plotCol("gris")
 ```
 
+### Kirby
+
+``` r
+gameR_cols("kirby")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("kirby")
+```
+
 ### Legend of Zelda: Ocarina of Time
 
 ``` r

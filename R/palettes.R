@@ -8,6 +8,7 @@ gameR_colors <- list(
   cyberpunk = c("#faf22b", "#49aeec", "#ff193b", "#000000"),
   fallout = c("#0068b1", "#fff874", "#27f286"),
   gris = c("#256484", "#e493a3", "#efa225", "#4a938e"),
+  kirby = c("#ffa8dc", "#c21f24", "#4fd644"),
   ocarina = c("#02940a", "#4f4499", "#e2e844", "#e94117"),
   okami = c("#56735a", "#f27934", "#c8e7e3", "#e2afb3", "#bfb582"),
   p4g = c("#ffe52c", "#7fe6ef", "#faa622", "#c4d70c", "#c22303"),
