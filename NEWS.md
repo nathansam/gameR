@@ -1,3 +1,8 @@
+# gameR 0.0.6
+
+* Added palette based on Persona 3 Reload ("p3r")
+* Tidied documentation (README and package vignette).
+
 # gameR 0.0.5
 
 * Added palette based on Okami ("okami")

@@ -1,6 +1,6 @@
 Package: gameR
 Title: Color Palettes Inspired by Video Games
-Version: 0.0.5.9000
+Version: 0.0.6
 Authors@R: c(
     person("Nathan", "Constantine-Cooke", , "nathan.constantine-cooke@ed.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4437-8713")),
