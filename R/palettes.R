@@ -11,7 +11,7 @@ gameR_colors <- list(
   kirby = c("#ffa8dc", "#c21f24", "#4fd644"),
   ocarina = c("#02940a", "#4f4499", "#e2e844", "#e94117"),
   okami = c("#56735a", "#f27934", "#c8e7e3", "#e2afb3", "#bfb582"),
-  p3r = c("#00a9f0", "#0768c0", "#e01d2f", "#000116", "#7dd22c"),
+  p3r = c("#00a9f0", "#0768c0", "#e01d2f", "#000116", "#7bbf34"),
   p4g = c("#ffe52c", "#7fe6ef", "#faa622", "#c4d70c", "#c22303"),
   pman = c("#fffd54", "#e93423", "#5acafa", "#f3aa3c", "#f2acda"),
   rayman = c("#945682", "#fcb24c", "#be3b45"),
