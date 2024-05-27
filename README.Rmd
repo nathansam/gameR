@@ -205,6 +205,16 @@ gameR_cols("pman")
 plotCol("pman")
 ```
 
+### Persona 3 Reload
+
+``` r
+gameR_cols("p3r")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("p3r")
+```
+
 ### Persona 4 Golden
 
 ``` r
