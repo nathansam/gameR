@@ -5,33 +5,34 @@
 
 <!-- badges: start -->
 
-| Usage                                                                                                                            | Release                                                                                                        | Development                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0/)                | [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR) | [![R-CMD-check](https://github.com/nathansam/gameR/workflows/CI/badge.svg)](https://github.com/nathansam/gameR/actions)                                                                                |
-| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)                                    | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev)       | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)                                                            |
-| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |                                                                                                                | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
-|                                                                                                                                  |                                                                                                                | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org)                                                            |
+| Usage | Release | Development |
+|----|----|----|
+| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0) | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR) | [![R-CMD-check](https://github.com/nathansam/gameR/workflows/CI/badge.svg)](https://github.com/nathansam/gameR/actions) |
+| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev/builds) | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR) |
+| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |  | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
+|  |  | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org) |
 
 <!-- badges: end -->
 
-gameR provides a collection of R color palettes inspired by video games.
+R color palettes inspired by video games.
 
-**Note**: these color palettes may *not* be color blind friendly. If
-accessibility is a priority, I recommend either using the [virdis
-package](https://CRAN.R-project.org/package=viridis) or checking your
-plots before sharing using tools which simulate color blindness such as
-[coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/)
+> \[!NOTE\] These color palettes may *not* be color blind friendly. If
+> accessibility is a priority, I recommend either using the [virdis
+> package](https://CRAN.R-project.org/package=viridis) or checking your
+> plots before sharing using tools which simulate color blindness (such
+> as
+> [coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/)).
 
 **Table of Contents**
 
-  - [Installation](#installation)
-  - [Getting started](#getting-started)
-  - [Palettes](#palettes)
-  - [Contributing new palettes](#contributing-new-palettes)
+- [Installation](#installation)
+- [Getting started](#getting-started)
+- [Palettes](#palettes)
+- [Contributing new palettes](#contributing-new-palettes)
 
 ## Installation
 
-gameR is on CRAN\! Install the stable version of gameR with:
+gameR is on CRAN! Install the stable version of gameR with:
 
 ``` r
 install.packages("gameR")
@@ -39,7 +40,7 @@ install.packages("gameR")
 
 You can install the development version of gameR, which may contain
 additional palettes, from [r-universe](https://r-universe.dev/search/)
-with:
+with
 
 ``` r
 # Enable universe(s) by nathansam
@@ -61,9 +62,8 @@ library(ggplot2)
 gameR provides either discrete color palettes or continuous palettes
 generated by interpolating a discrete palette. Discrete palettes and
 continuous palettes are provided via the `gameR_cols()` and
-`gameR_cont()` functions respectively with the name of the palette
-passed as an argument. For a full list of the palettes provided by
-`gameR`, call one of these functions without any arguments.
+`gameR_cont()` functions respectively. For a full list of the palettes
+provided by `gameR`, call one of these functions without any arguments.
 
 ``` r
 gameR_cols()
@@ -75,8 +75,8 @@ gameR_cols()
 
 ## Palettes
 
-This section presents a list of the palettes provided by gameR ordered
-alphabetically by the name of the game which inspired the palette.
+The following palettes are ordered alphabetically by the name of the
+game which inspired the palette.
 
 ### Banjo-Kazooie
 
@@ -240,7 +240,7 @@ gameR_cols("wow")
 
 ## Contributing new palettes
 
-Contributions via pull requests are welcome\! I would love to have as
+Contributions via pull requests are welcome! I would love to have as
 many video games represented as possible. With that said, there are two
 requirements I ask of any contributed palettes:
 
@@ -251,7 +251,7 @@ requirements I ask of any contributed palettes:
 2.  Please avoid trademarked names for palette names. I am not entirely
     sure how far the [CRAN
     policy](https://cran.r-project.org/web/packages/policies.html)
-    extends when it comes to trademarked names but I would rather not
+    extends when it comes to trademarked names, but I would rather not
     risk running afoul of CRAN policy.
 
 ### Adding a New Palette to the gameR Palette List
@@ -267,7 +267,7 @@ documentation.
 The README is generated by
 [README.Rmd](https://github.com/nathansam/gameR/blob/main/README.Rmd).
 Please update this file with the palettes you are contributing (the
-palettes are in alphabetical order) and knit the file before committing
+palettes are in alphabetical order), and knit the file before committing
 and pushing your contributions.
 
 ### Credit
