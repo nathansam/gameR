@@ -103,13 +103,12 @@ species.</p>
 <div class="section level2">
 <h2 id="using-ggplot2">Using <code>{ggplot2}</code><a class="anchor" aria-label="anchor" href="#using-ggplot2"></a>
 </h2>
-<p>To use palettes from gameR in ggplots, a palette can be specified via
+<p>To use palettes from gameR in ggplot, a palette can be specified via
 either <code><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html" class="external-link">scale_color_manual()</a></code> or
-<code><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html" class="external-link">scale_fill_manual()</a></code> to adjust color or fill respectively
-for variables specified in <code><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes()</a></code>. When specifying a
-palette, the <code>values =</code> argument must be used. Calling the
-<code>scale_*</code> function will not allow a palette to be specified
-if no named argument is used.</p>
+<code><a href="https://ggplot2.tidyverse.org/reference/scale_manual.html" class="external-link">scale_fill_manual()</a></code> to adjust the color or fill
+respectively. When specifying a palette, the <code>values =</code>
+argument must be used. Calling the <code>scale_*</code> function will
+not allow a palette to be specified if no named argument is used.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="va">penguins</span> <span class="op"><a href="https://magrittr.tidyverse.org/reference/pipe.html" class="external-link">%&gt;%</a></span></span>
 <span>  <span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggplot.html" class="external-link">ggplot</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/aes.html" class="external-link">aes</a></span><span class="op">(</span>x <span class="op">=</span> <span class="va">body_mass_g</span>, y <span class="op">=</span> <span class="va">flipper_length_mm</span>, color <span class="op">=</span> <span class="va">species</span><span class="op">)</span><span class="op">)</span> <span class="op">+</span></span>
