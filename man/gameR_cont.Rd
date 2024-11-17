@@ -16,7 +16,7 @@ gameR_cont(
 \item{n}{Number of colors to be generated}
 
 \item{palette}{Character name of palette. Either
-banjo, blocks, border, cowboy, cups, cyberpunk, fallout, gris, kirby, ocarina, okami, p3r, p4g, pman, rayman, sonic, spirit, splat, superbros, wow}
+banjo, blocks, border, cowboy, cups, cyberpunk, fallout, frisk, gris, human_rev, kirby, new_horizon, ocarina, okami, p3r, p4g, papyrus, pman, radio, rayman, sans, sonic, spirit, splat, superbros, wow}
 
 \item{reverse}{Logical. Should the palette be reversed? Defaults to FALSE.}
 
