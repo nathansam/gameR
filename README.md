@@ -6,8 +6,8 @@
 <!-- badges: start -->
 
 | Usage                                                                                                                            | Release                                                                                                         | Development                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0)                 | [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR)  | [![R-CMD-check](https://github.com/nathansam/gameR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nathansam/gameR/actions)                                                          |
+|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0)                 | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR)    | [![R-CMD-check](https://github.com/nathansam/gameR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nathansam/gameR/actions)                                                          |
 | ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)                                    | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev/builds) | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)                                                            |
 | [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |                                                                                                                 | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
 |                                                                                                                                  |                                                                                                                 | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org)                                                            |
@@ -16,7 +16,7 @@
 
 R color palettes inspired by video games.
 
-> \[\!NOTE\] These color palettes may *not* be color blind friendly. If
+> \[!NOTE\] These color palettes may *not* be color blind friendly. If
 > accessibility is a priority, I recommend either using the [virdis
 > package](https://CRAN.R-project.org/package=viridis) or checking your
 > plots before sharing using tools which simulate color blindness (such
@@ -25,14 +25,14 @@ R color palettes inspired by video games.
 
 **Table of Contents**
 
-  - [Installation](#installation)
-  - [Getting started](#getting-started)
-  - [Palettes](#palettes)
-  - [Contributing new palettes](#contributing-new-palettes)
+- [Installation](#installation)
+- [Getting started](#getting-started)
+- [Palettes](#palettes)
+- [Contributing new palettes](#contributing-new-palettes)
 
 ## Installation
 
-gameR is on CRAN\! Install the stable version of gameR with:
+gameR is on CRAN! Install the stable version of gameR with:
 
 ``` r
 install.packages("gameR")
@@ -67,10 +67,12 @@ provided by `gameR`, call one of these functions without any arguments.
 
 ``` r
 gameR_cols()
-#>  [1] "banjo"     "blocks"    "border"    "cowboy"    "cups"      "cyberpunk"
-#>  [7] "fallout"   "gris"      "kirby"     "ocarina"   "okami"     "p3r"      
-#> [13] "p4g"       "pman"      "rayman"    "sonic"     "spirit"    "splat"    
-#> [19] "superbros" "wow"
+#>  [1] "banjo"       "blocks"      "border"      "cowboy"      "cups"       
+#>  [6] "cyberpunk"   "fallout"     "frisk"       "gris"        "human_rev"  
+#> [11] "kirby"       "new_horizon" "ocarina"     "okami"       "p3r"        
+#> [16] "p4g"         "papyrus"     "pman"        "radio"       "rayman"     
+#> [21] "sans"        "sonic"       "spirit"      "splat"       "superbros"  
+#> [26] "wow"
 ```
 
 ## Palettes
@@ -118,13 +120,21 @@ gameR_cols("fallout")
 
 <img src="man/figures/README-unnamed-chunk-9-1.png" width="100%" />
 
+### Undertale - frisk
+
+<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
+
 ### Gris
 
 ``` r
 gameR_cols("gris")
 ```
 
-<img src="man/figures/README-unnamed-chunk-10-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+
+### Deus Ex: Human Revolution
+
+<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
 ### Kirby
 
@@ -132,7 +142,11 @@ gameR_cols("gris")
 gameR_cols("kirby")
 ```
 
-<img src="man/figures/README-unnamed-chunk-11-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+
+### Animal Crossing: New Horizons
+
+<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
 ### Legend of Zelda: Ocarina of Time
 
@@ -140,7 +154,7 @@ gameR_cols("kirby")
 gameR_cols("ocarina")
 ```
 
-<img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
 
 ### Okami
 
@@ -148,7 +162,7 @@ gameR_cols("ocarina")
 gameR_cols("okami")
 ```
 
-<img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
 
 ### Pac-Man
 
@@ -156,7 +170,7 @@ gameR_cols("okami")
 gameR_cols("pman")
 ```
 
-<img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
 
 ### Persona 3 Reload
 
@@ -164,7 +178,7 @@ gameR_cols("pman")
 gameR_cols("p3r")
 ```
 
-<img src="man/figures/README-unnamed-chunk-15-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
 
 ### Persona 4 Golden
 
@@ -172,7 +186,15 @@ gameR_cols("p3r")
 gameR_cols("p4g")
 ```
 
-<img src="man/figures/README-unnamed-chunk-16-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
+
+### Undertale - Papyrus
+
+<img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
+
+### Undertale - Papyrus
+
+<img src="man/figures/README-unnamed-chunk-21-1.png" width="100%" />
 
 ### Rayman
 
@@ -180,7 +202,11 @@ gameR_cols("p4g")
 gameR_cols("rayman")
 ```
 
-<img src="man/figures/README-unnamed-chunk-17-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-22-1.png" width="100%" />
+
+### Undertale - Sans
+
+<img src="man/figures/README-unnamed-chunk-23-1.png" width="100%" />
 
 ### Red Dead Redemption II
 
@@ -188,7 +214,7 @@ gameR_cols("rayman")
 gameR_cols("cowboy")
 ```
 
-<img src="man/figures/README-unnamed-chunk-18-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-24-1.png" width="100%" />
 
 ### Sonic the Hedgehog
 
@@ -196,7 +222,7 @@ gameR_cols("cowboy")
 gameR_cols("sonic")
 ```
 
-<img src="man/figures/README-unnamed-chunk-19-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-25-1.png" width="100%" />
 
 ### Spiritfarer
 
@@ -204,7 +230,7 @@ gameR_cols("sonic")
 gameR_cols("spirit")
 ```
 
-<img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-26-1.png" width="100%" />
 
 ### Splatoon
 
@@ -212,7 +238,7 @@ gameR_cols("spirit")
 gameR_cols("splat")
 ```
 
-<img src="man/figures/README-unnamed-chunk-21-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-27-1.png" width="100%" />
 
 ### Super Mario Bros
 
@@ -220,7 +246,7 @@ gameR_cols("splat")
 gameR_cols("superbros")
 ```
 
-<img src="man/figures/README-unnamed-chunk-22-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-28-1.png" width="100%" />
 
 ### Tetris
 
@@ -228,7 +254,7 @@ gameR_cols("superbros")
 gameR_cols("blocks")
 ```
 
-<img src="man/figures/README-unnamed-chunk-23-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-29-1.png" width="100%" />
 
 ### World of Warcraft
 
@@ -236,11 +262,11 @@ gameR_cols("blocks")
 gameR_cols("wow")
 ```
 
-<img src="man/figures/README-unnamed-chunk-24-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-30-1.png" width="100%" />
 
 ## Contributing new palettes
 
-Contributions via pull requests are welcome\! I would love to have as
+Contributions via pull requests are welcome! I would love to have as
 many video games represented as possible. With that said, there are two
 requirements I ask of any contributed palettes:
 

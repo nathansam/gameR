@@ -156,6 +156,12 @@ gameR_cols("fallout")
 plotCol("fallout")
 ```
 
+### Undertale - frisk
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("frisk")
+```
+
 ### Gris
 
 ``` r
@@ -166,6 +172,12 @@ gameR_cols("gris")
 plotCol("gris")
 ```
 
+### Deus Ex: Human Revolution
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("human_rev")
+```
+
 ### Kirby
 
 ``` r
@@ -174,6 +186,12 @@ gameR_cols("kirby")
 
 ```{R, fig.height = 1, echo = FALSE}
 plotCol("kirby")
+```
+
+### Animal Crossing: New Horizons
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("new_horizon")
 ```
 
 ### Legend of Zelda: Ocarina of Time
@@ -227,6 +245,19 @@ gameR_cols("p4g")
 plotCol("p4g")
 ```
 
+
+### Undertale - Papyrus
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("papyrus")
+```
+
+### Undertale - Papyrus
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("radio")
+```
+
 ### Rayman
 
 ``` r
@@ -235,6 +266,12 @@ gameR_cols("rayman")
 
 ```{R, fig.height = 1, echo = FALSE}
 plotCol("rayman")
+```
+
+### Undertale - Sans
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("sans")
 ```
 
 ### Red Dead Redemption II
