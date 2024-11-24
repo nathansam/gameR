@@ -5,12 +5,12 @@
 
 <!-- badges: start -->
 
-| Usage                                                                                                                            | Release                                                                                                         | Development                                                                                                                                                                                            |
-|----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0)                 | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR)    | [![R-CMD-check](https://github.com/nathansam/gameR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nathansam/gameR/actions)                                                          |
-| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)                                    | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev/builds) | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR)                                                            |
-| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |                                                                                                                 | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
-|                                                                                                                                  |                                                                                                                 | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org)                                                            |
+| Usage | Release | Development |
+|----|----|----|
+| [![License: GPL-3](https://img.shields.io/badge/License-GPL3-green.svg)](https://opensource.org/license/gpl-3-0) | [![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/gameR)](https://cran.r-project.org/package=gameR) | [![R-CMD-check](https://github.com/nathansam/gameR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nathansam/gameR/actions) |
+| ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) | [![gameR status badge](https://nathansam.r-universe.dev/badges/gameR)](https://nathansam.r-universe.dev/builds) | [![codecov](https://codecov.io/gh/nathansam/gameR/branch/main/graph/badge.svg?token=lb83myWBXt)](https://app.codecov.io/gh/nathansam/gameR) |
+| [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/grand-total/gameR?color=green)](https://r-pkg.org/pkg/gameR) |  | [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) |
+|  |  | [![Tidyverse style guide](https://img.shields.io/static/v1?label=Code%20Style&message=Tidyverse&color=1f1c30)](https://style.tidyverse.org) |
 
 <!-- badges: end -->
 
@@ -134,6 +134,10 @@ gameR_cols("gris")
 
 ### Deus Ex: Human Revolution
 
+``` r
+gameR_cols("human_rev")
+```
+
 <img src="man/figures/README-unnamed-chunk-12-1.png" width="100%" />
 
 ### Kirby
@@ -145,6 +149,10 @@ gameR_cols("kirby")
 <img src="man/figures/README-unnamed-chunk-13-1.png" width="100%" />
 
 ### Animal Crossing: New Horizons
+
+``` r
+gameR_cols("new_horizon")
+```
 
 <img src="man/figures/README-unnamed-chunk-14-1.png" width="100%" />
 
@@ -190,9 +198,17 @@ gameR_cols("p4g")
 
 ### Undertale - Papyrus
 
+``` r
+gameR_cols("papyrus")
+```
+
 <img src="man/figures/README-unnamed-chunk-20-1.png" width="100%" />
 
-### Undertale - Papyrus
+### Jet Set Radio
+
+``` r
+gameR_cols("radio")
+```
 
 <img src="man/figures/README-unnamed-chunk-21-1.png" width="100%" />
 
@@ -205,6 +221,10 @@ gameR_cols("rayman")
 <img src="man/figures/README-unnamed-chunk-22-1.png" width="100%" />
 
 ### Undertale - Sans
+
+``` r
+gameR_cols("sans")
+```
 
 <img src="man/figures/README-unnamed-chunk-23-1.png" width="100%" />
 

@@ -105,6 +105,16 @@ plotCol <- function(palette) {
 The following palettes are ordered alphabetically by the name of the game which
 inspired the palette. 
 
+### Animal Crossing: New Horizons
+
+``` r
+gameR_cols("new_horizon")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("new_horizon")
+```
+
 ### Banjo-Kazooie
 
 ``` r
@@ -146,6 +156,16 @@ gameR_cols("cyberpunk")
 plotCol("cyberpunk")
 ```
 
+### Deus Ex: Human Revolution
+
+``` r
+gameR_cols("human_rev")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("human_rev")
+```
+
 ### Fallout
 
 ``` r
@@ -156,11 +176,6 @@ gameR_cols("fallout")
 plotCol("fallout")
 ```
 
-### Undertale - frisk
-
-```{R, fig.height = 1, echo = FALSE}
-plotCol("frisk")
-```
 
 ### Gris
 
@@ -172,10 +187,14 @@ gameR_cols("gris")
 plotCol("gris")
 ```
 
-### Deus Ex: Human Revolution
+### Jet Set Radio
+
+``` r
+gameR_cols("radio")
+```
 
 ```{R, fig.height = 1, echo = FALSE}
-plotCol("human_rev")
+plotCol("radio")
 ```
 
 ### Kirby
@@ -188,11 +207,6 @@ gameR_cols("kirby")
 plotCol("kirby")
 ```
 
-### Animal Crossing: New Horizons
-
-```{R, fig.height = 1, echo = FALSE}
-plotCol("new_horizon")
-```
 
 ### Legend of Zelda: Ocarina of Time
 
@@ -245,19 +259,6 @@ gameR_cols("p4g")
 plotCol("p4g")
 ```
 
-
-### Undertale - Papyrus
-
-```{R, fig.height = 1, echo = FALSE}
-plotCol("papyrus")
-```
-
-### Undertale - Papyrus
-
-```{R, fig.height = 1, echo = FALSE}
-plotCol("radio")
-```
-
 ### Rayman
 
 ``` r
@@ -266,12 +267,6 @@ gameR_cols("rayman")
 
 ```{R, fig.height = 1, echo = FALSE}
 plotCol("rayman")
-```
-
-### Undertale - Sans
-
-```{R, fig.height = 1, echo = FALSE}
-plotCol("sans")
 ```
 
 ### Red Dead Redemption II
@@ -332,6 +327,36 @@ gameR_cols("blocks")
 
 ```{R, fig.height = 1, echo = FALSE}
 plotCol("blocks")
+```
+
+### Undertale - Frisk
+
+``` r
+gameR_cols("frisk")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("frisk")
+```
+
+### Undertale - Papyrus
+
+``` r
+gameR_cols("papyrus")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("papyrus")
+```
+
+### Undertale - Sans
+
+``` r
+gameR_cols("sans")
+```
+
+```{R, fig.height = 1, echo = FALSE}
+plotCol("sans")
 ```
 
 ### World of Warcraft
