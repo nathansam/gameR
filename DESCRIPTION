@@ -5,13 +5,15 @@ Authors@R: c(
     person("Nathan", "Constantine-Cooke", , "nathan.constantine-cooke@ed.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-4437-8713")),
     person("Hugh", "Warden", , "hugh.warden@outlook.com", role = c("ctb"),
-           comment = c(ORCID = "0000-0002-4308-7316"))
+           comment = c(ORCID = "0000-0002-4308-7316")),
+    person("Sergej", "Ruff", email = "serijnh@gmail.com", role = c("ctb"),
+           comment = c(ORCID = "0009-0000-8264-6347"))
     )
 Description: Palettes based on video games.
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Suggests: 
     testthat (>= 3.0.0),
     ggplot2,
