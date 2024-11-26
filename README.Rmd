@@ -52,7 +52,7 @@ install.packages("gameR")
 ```
 
 You can install the development version of gameR, which may contain additional
-palettes, from [r-universe](https://r-universe.dev/search/) with
+palettes, from [r-universe](https://r-universe.dev/search) with
 
 ```{R dev, eval = FALSE}
 # Enable universe(s) by nathansam
