@@ -8,13 +8,13 @@
   "codeRepository": "https://github.com/nathansam/gameR/",
   "issueTracker": "https://github.com/nathansam/gameR/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.4.0 (2024-04-24)",
+  "runtimePlatform": "R version 4.4.1 (2024-06-14)",
   "provider": {
     "@id": "https://cran.r-project.org",
     "@type": "Organization",
@@ -37,6 +37,13 @@
       "familyName": "Warden",
       "email": "hugh.warden@outlook.com",
       "@id": "https://orcid.org/0000-0002-4308-7316"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sergej",
+      "familyName": "Ruff",
+      "email": "serijnh@gmail.com",
+      "@id": "https://orcid.org/0009-0000-8264-6347"
     }
   ],
   "maintainer": [
@@ -138,5 +145,5 @@
   "softwareRequirements": {
     "SystemRequirements": null
   },
-  "fileSize": "271.076KB"
+  "fileSize": "276.87KB"
 }

@@ -1,3 +1,12 @@
+# gameR 0.0.7
+
+Palettes new to this version are thanks to Sergej Ruff (@SergejRuff on GitHub)
+
+* Added palettes based on Undertale ("frisk","papyrus", and "sans")
+* Added palette based on Animal crossing ("new_horizon")
+* Added palette based on Deus Ex: Human Revolution ("human_rev")
+* Added palette based on Jet Set Radio ("radio"")
+
 # gameR 0.0.6
 
 * Added palette based on Persona 3 Reload ("p3r")
