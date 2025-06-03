@@ -29,13 +29,18 @@ knitr::opts_chunk$set(
 
 R color palettes inspired by video games.
 
+
+If you do not have to use cat, you could try this
+
+```{=html}
 > [!NOTE]
 > These color palettes may *not* be color blind friendly. If
   accessibility is a priority, I recommend either using the
   [virdis package](https://CRAN.R-project.org/package=viridis) or checking your
   plots before sharing using tools which simulate color blindness (such as
   [coblis](https://www.color-blindness.com/coblis-color-blindness-simulator/)).
-
+```
+  
 **Table of Contents** 
 
 - [Installation](#installation)
