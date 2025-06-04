@@ -16,8 +16,6 @@
 
 R color palettes inspired by video games.
 
-If you do not have to use cat, you could try this
-
 > [!NOTE]
 > These color palettes may *not* be color blind friendly. If
   accessibility is a priority, I recommend either using the
