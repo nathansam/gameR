@@ -16,14 +16,14 @@
 Source:
 [`DESCRIPTION`](https://github.com/nathansam/gameR/blob/main/DESCRIPTION)
 
-Constantine-Cooke N (2025). *gameR: Color Palettes Inspired by Video
+Constantine-Cooke N (2026). *gameR: Color Palettes Inspired by Video
 Games*. R package version 0.0.7.9000,
 <https://www.constantine-cooke.com/gameR/>.
 
     @Manual{,
       title = {gameR: Color Palettes Inspired by Video Games},
       author = {Nathan Constantine-Cooke},
-      year = {2025},
+      year = {2026},
       note = {R package version 0.0.7.9000},
       url = {https://www.constantine-cooke.com/gameR/},
     }
