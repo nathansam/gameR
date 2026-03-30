@@ -24,11 +24,9 @@ adding the name of the palette to `@param palette`, and calling
 package uses the [tidyverse style guide](https://style.tidyverse.org)
 enforced by [the styler
 package](https://www.tidyverse.org/blog/2017/12/styler-1.0.0/). Before
-committing your code, try to remember to call
-[`styler::style_pkg()`](https://styler.r-lib.org/reference/style_pkg.html).
-Do not worry if you forget though! When you open a pull request, a bot
-should try to run both `devtools::document()` and
-[`styler::style_pkg()`](https://styler.r-lib.org/reference/style_pkg.html)
+committing your code, try to remember to call `styler::style_pkg()`. Do
+not worry if you forget though! When you open a pull request, a bot
+should try to run both `devtools::document()` and `styler::style_pkg()`
 on your code anyway.
 
 ## Updating the README
