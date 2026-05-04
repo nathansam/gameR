@@ -1,6 +1,7 @@
 # gameR
 
 ``` r
+
 library(gameR)
 library(ggplot2)
 library(magrittr)
@@ -27,6 +28,7 @@ to adjust the color or fill respectively. When specifying a palette, the
 not allow a palette to be specified if no named argument is used.
 
 ``` r
+
 penguins %>%
   ggplot(aes(x = body_mass_g, y = flipper_length_mm, color = species)) +
   geom_point() +
@@ -45,6 +47,7 @@ specify the color of the points. Here we use
 in combination with `unclasss()` to color by species.
 
 ``` r
+
 par(bg = "white")
 
 attach(penguins)

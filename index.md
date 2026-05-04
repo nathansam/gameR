@@ -21,6 +21,7 @@ R color palettes inspired by video games.
 gameR is on CRAN! Install the stable version of gameR with:
 
 ``` r
+
 install.packages("gameR")
 ```
 
@@ -29,6 +30,7 @@ additional palettes, from [r-universe](https://r-universe.dev/search)
 with
 
 ``` r
+
 # Enable universe(s) by nathansam
 options(repos = c(
   nathansam = "https://nathansam.r-universe.dev",
@@ -41,6 +43,7 @@ install.packages("gameR")
 ## Getting started
 
 ``` r
+
 library(gameR)
 library(ggplot2)
 ```
@@ -55,6 +58,7 @@ functions respectively. For a full list of the palettes provided by
 `gameR`, call one of these functions without any arguments.
 
 ``` r
+
 gameR_cols()
 #>  [1] "banjo"       "blocks"      "border"      "cowboy"      "cups"       
 #>  [6] "cyberpunk"   "fallout"     "frisk"       "gris"        "human_rev"  
@@ -72,6 +76,7 @@ game which inspired the palette.
 ### Animal Crossing: New Horizons
 
 ``` r
+
 gameR_cols("new_horizon")
 ```
 
@@ -80,6 +85,7 @@ gameR_cols("new_horizon")
 ### Banjo-Kazooie
 
 ``` r
+
 gameR_cols("banjo")
 ```
 
@@ -88,6 +94,7 @@ gameR_cols("banjo")
 ### Borderlands
 
 ``` r
+
 gameR_cols("border")
 ```
 
@@ -96,6 +103,7 @@ gameR_cols("border")
 ### Cuphead
 
 ``` r
+
 gameR_cols("cups")
 ```
 
@@ -104,6 +112,7 @@ gameR_cols("cups")
 ### Cyberpunk
 
 ``` r
+
 gameR_cols("cyberpunk")
 ```
 
@@ -112,6 +121,7 @@ gameR_cols("cyberpunk")
 ### Deus Ex: Human Revolution
 
 ``` r
+
 gameR_cols("human_rev")
 ```
 
@@ -120,6 +130,7 @@ gameR_cols("human_rev")
 ### Fallout
 
 ``` r
+
 gameR_cols("fallout")
 ```
 
@@ -128,6 +139,7 @@ gameR_cols("fallout")
 ### Gris
 
 ``` r
+
 gameR_cols("gris")
 ```
 
@@ -136,6 +148,7 @@ gameR_cols("gris")
 ### Jet Set Radio
 
 ``` r
+
 gameR_cols("radio")
 ```
 
@@ -144,6 +157,7 @@ gameR_cols("radio")
 ### Kirby
 
 ``` r
+
 gameR_cols("kirby")
 ```
 
@@ -152,6 +166,7 @@ gameR_cols("kirby")
 ### Legend of Zelda: Ocarina of Time
 
 ``` r
+
 gameR_cols("ocarina")
 ```
 
@@ -160,6 +175,7 @@ gameR_cols("ocarina")
 ### Okami
 
 ``` r
+
 gameR_cols("okami")
 ```
 
@@ -168,6 +184,7 @@ gameR_cols("okami")
 ### Pac-Man
 
 ``` r
+
 gameR_cols("pman")
 ```
 
@@ -176,6 +193,7 @@ gameR_cols("pman")
 ### Persona 3 Reload
 
 ``` r
+
 gameR_cols("p3r")
 ```
 
@@ -184,6 +202,7 @@ gameR_cols("p3r")
 ### Persona 4 Golden
 
 ``` r
+
 gameR_cols("p4g")
 ```
 
@@ -192,6 +211,7 @@ gameR_cols("p4g")
 ### Rayman
 
 ``` r
+
 gameR_cols("rayman")
 ```
 
@@ -200,6 +220,7 @@ gameR_cols("rayman")
 ### Red Dead Redemption II
 
 ``` r
+
 gameR_cols("cowboy")
 ```
 
@@ -208,6 +229,7 @@ gameR_cols("cowboy")
 ### Sonic the Hedgehog
 
 ``` r
+
 gameR_cols("sonic")
 ```
 
@@ -216,6 +238,7 @@ gameR_cols("sonic")
 ### Spiritfarer
 
 ``` r
+
 gameR_cols("spirit")
 ```
 
@@ -224,6 +247,7 @@ gameR_cols("spirit")
 ### Splatoon
 
 ``` r
+
 gameR_cols("splat")
 ```
 
@@ -232,6 +256,7 @@ gameR_cols("splat")
 ### Super Mario Bros
 
 ``` r
+
 gameR_cols("superbros")
 ```
 
@@ -240,6 +265,7 @@ gameR_cols("superbros")
 ### Tetris
 
 ``` r
+
 gameR_cols("blocks")
 ```
 
@@ -248,6 +274,7 @@ gameR_cols("blocks")
 ### Undertale - Frisk
 
 ``` r
+
 gameR_cols("frisk")
 ```
 
@@ -256,6 +283,7 @@ gameR_cols("frisk")
 ### Undertale - Papyrus
 
 ``` r
+
 gameR_cols("papyrus")
 ```
 
@@ -264,6 +292,7 @@ gameR_cols("papyrus")
 ### Undertale - Sans
 
 ``` r
+
 gameR_cols("sans")
 ```
 
@@ -272,6 +301,7 @@ gameR_cols("sans")
 ### World of Warcraft
 
 ``` r
+
 gameR_cols("wow")
 ```
 
